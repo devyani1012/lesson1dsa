@@ -32,7 +32,7 @@ class sll:     #creating  singly linear linked list
     def print(self):
         temp=self.head
         while(temp):
-            print(temp.data)
+            print(temp.data,end="->")
             temp=temp.next    
 list1=sll()
 n1=node(10)

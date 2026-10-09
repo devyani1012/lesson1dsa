@@ -10,9 +10,11 @@ class sll:     #creating  singly linear linked list
             self.head=new_node   #check head is empty
         else:
             temp=self.head    #if not then this will executed
+
             while(temp.next):
                 temp=temp.next
-            temp.next=new_node
+            temp.next=new_node  
+                 
 
     def print(self):
         temp=self.head
@@ -26,6 +28,8 @@ list1.append(n1)
 list1.append(n2)
 list1.append(node(30))
 list1.append(node(40))
-list1.print()    
+list1.print()  
+
+
 
         
